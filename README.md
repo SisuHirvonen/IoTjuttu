@@ -12,6 +12,17 @@ IoT-järjestelmän rakenteeseen kuuluu datan keräämiseen tarkoitetut anturit. 
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
 # Käytetyt kehitysympäristöt
+#### Microsoft Azure
+Azure tarjoaa useita erillaisia toimintoja käyttäjilleen. Näihin palveluihin kuuluu esim. nettisivujen isännöinti, pilvipalveluja, integraatio palveluja ja hallintapalveluja. Azuren on tarkoitus toimi sovellusten ja palvelujen alustana.
+#### Replit
+Replit on selaimessa toimiva koodaus ympäristö joten latauksia ei tarvita. Replitillä voi luoda monia eri koodeja. Myös ryhmä työskentely onnistuu, koska samaa koodia voi tehdä useampi henkilö samanaikaisesti.
+#### Github
+Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projektejaan. Github on myös sosiaalinen verkko missä kehittäjät voivat tehdä yhteistyötä ja parantaa omia taitojaan. Githubissa pystyt seuraamaan kuka muuttaa mitäkin ohjelmassa. Github myös toimii replitin kanssa.
 # Termihakemisto
+IoT = Esineiden internet.
+Anturi = Mittaa eri asioita anturistta riippuen kuten lämpöä tai ilmankosteutta.
+Älykoti = Kiinteistö pystyy keräämään itsestään dataa, joka on nähtävissä esim, älypuhelimella.
 # Viitteet
-empirica.fi/iot/
+https://empirica.fi/iot/
+https://sulava.com/pilvi-infrastruktuuri/mika-se-azure-oikein/
+https://fi.if-koubou.com/articles/how-to/what-is-github-and-what-is-it-used-for.html
