@@ -93,7 +93,10 @@ let chartTempData = [
             vAxis: { minValue: 0 },
           }}
         />
-      </div> 
+        <div>
+          <a href="https://github.com/SisuHirvonen/IoTjuttu/blob/master/README.md">ReadMe</a>
+        </div>
+      </div>
       </Route>
       </Switch>
     </div>

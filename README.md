@@ -8,6 +8,13 @@ IoT-järjestelmän rakenteeseen kuuluu datan keräämiseen tarkoitetut anturit. 
 ![Rakenne](/kuva.jpg)
 ### -Laitteistot
 ### -Komponentit
+#### Anturit 
+##### Kuulevat anturit
+Kuulevilla antureita voidaan käytetään useissa eri paikoissa. Niitä voidaan opettaa tuntetmaan erillaisia äänia ja regoimaan sen mukaisesti. Ääni sensoreiden avulla voidaan myös tutkia miten melusta on haittaa eläintarhan eläimille. Anturit voivat mitata erilaisia ääniä. Kaupunkeihin asennetuissa sensoreissa käytetään antureita jotka mittaavat ääntä jota ihmiset kuulevat. Näin on helpomi verrata saatua dataa ihmiseen. Mikrofoneja voidaan myös käyttää liikenne datan keruussa. Pystytään analysoimaan esim. minkälaisia kulkuvälineitä käytetään eri paikoissa. On myös sensoreita jotka regoivat agressioon tai ampumiseen. Näitä käytetään joko vaara tilanteen estämiseksi tai sen nopeasti paikantamiseksi. Julkisuudessa puhetta kuuntelevat mikrfonit kuitenkin voivat johtaa salakuunteluun joten mikrofonin keräämä data pitäisi käsitellä samassa laitteessa mikä datan on kerännyt. Antureilla on myös käyttöä toimisto tiloissa. Toimistoissa voidaan mitata muun muassa äänen voimakkuutta ja taajuutta. Saadusta datasta voidaan analysoida haitta ääniä ja toimia niiden vähentämiseksi.
+##### Tuntevat anturit
+Tuntevat anturit voivat mitata kosteutta ja karjan hyvin vointia. Sensoreita voidaan myös käytttää rahdin seurannassa. Näin voidaan ennaltaehkäistä tuotteiden pilaantumista. Sensoreita voidaan käyttää laivoissa ja lentokoneissa. Erityisesti tuotteisiin jotka ovat arkoja kosteudelle tai lämpötilan vaihtelulle. Yksityiselle käyttäjälle tuntevasta sensorista voi olla hyötyö kosteus vaurion seurannassa omassa kodissaan. Antureista kerätty data lähetetään keskusyksikköön joka välittää tiedon sovellukseen mistä se on luettavissa. Dataa voidaan myös lähettää pilveen jos se on tarpeellista tai dataa halutaan käyttää johonkin muuhun. Kosteus sensoreilla pystyttäisiin seuraamaan rakennustöiden sujumista ja varoittamaan mahdollisen kosteus vaurion varalta. Sensoreiden hinta on tullut alas viime vuosien aikana joten useammat alat alakavat käyttämään tuntevia sensoreita työn seurannassa
+##### Haistavat anturit
+Hajuja on vaikea tunnistaa koska niissä on monia eri komponentteja. Mutta jos sensoria käytetään tiettyjen asioiden haistamiseen se toimii. Hajuja voidaan käyttää myös tautien havainnollistamisessa. Näihin tauteihin kuuluu parkinsonin tauti ja ms tauti. Antureita käytetään myös päästöjen seurannassa. Rahtilaivojen päästäjö seurataan rannalle tai saaristoon asennetuilla sensoreilla jotka mittaavat päästöistä muun muassa rikin määrää. Anturi mitttaa ilmasta kaasun osuuden. rikkiä seurataan, koska rikki on myrkyllinen kaasu ja voi seurata ihmishenkiä jos niitä ei pidetä silmällä. Antureilla myös mitataan koulutilojen ilmanlaatua. Anturit mittaavat lämpötilaa, ilmanlaatua, pienihiukkaisia ja ilmanpainetta. Tietoa ongelmasta saadaan myös koululaisista jotka voivat kertoa jos on huono olo. 
 ### -Palvelut
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
@@ -26,3 +33,4 @@ Anturi = Mittaa eri asioita anturistta riippuen kuten lämpöä tai ilmankosteut
 https://empirica.fi/iot/
 https://sulava.com/pilvi-infrastruktuuri/mika-se-azure-oikein/
 https://fi.if-koubou.com/articles/how-to/what-is-github-and-what-is-it-used-for.html
+https://www.dna.fi/yrityksille/aistien-internet-podcast
