@@ -14,10 +14,17 @@ Kuulevilla antureita voidaan käytetään useissa eri paikoissa. Niitä voidaan 
 ##### Tuntevat anturit
 Tuntevat anturit voivat mitata kosteutta ja karjan hyvin vointia. Sensoreita voidaan myös käytttää rahdin seurannassa. Näin voidaan ennaltaehkäistä tuotteiden pilaantumista. Sensoreita voidaan käyttää laivoissa ja lentokoneissa. Erityisesti tuotteisiin jotka ovat arkoja kosteudelle tai lämpötilan vaihtelulle. Yksityiselle käyttäjälle tuntevasta sensorista voi olla hyötyö kosteus vaurion seurannassa omassa kodissaan. Antureista kerätty data lähetetään keskusyksikköön joka välittää tiedon sovellukseen mistä se on luettavissa. Dataa voidaan myös lähettää pilveen jos se on tarpeellista tai dataa halutaan käyttää johonkin muuhun. Kosteus sensoreilla pystyttäisiin seuraamaan rakennustöiden sujumista ja varoittamaan mahdollisen kosteus vaurion varalta. Sensoreiden hinta on tullut alas viime vuosien aikana joten useammat alat alakavat käyttämään tuntevia sensoreita työn seurannassa
 ##### Haistavat anturit
-Hajuja on vaikea tunnistaa koska niissä on monia eri komponentteja. Mutta jos sensoria käytetään tiettyjen asioiden haistamiseen se toimii. Hajuja voidaan käyttää myös tautien havainnollistamisessa. Näihin tauteihin kuuluu parkinsonin tauti ja ms tauti. Antureita käytetään myös päästöjen seurannassa. Rahtilaivojen päästäjö seurataan rannalle tai saaristoon asennetuilla sensoreilla jotka mittaavat päästöistä muun muassa rikin määrää. Anturi mitttaa ilmasta kaasun osuuden. rikkiä seurataan, koska rikki on myrkyllinen kaasu ja voi seurata ihmishenkiä jos niitä ei pidetä silmällä. Antureilla myös mitataan koulutilojen ilmanlaatua. Anturit mittaavat lämpötilaa, ilmanlaatua, pienihiukkaisia ja ilmanpainetta. Tietoa ongelmasta saadaan myös koululaisista jotka voivat kertoa jos on huono olo. 
+Hajuja on vaikea tunnistaa koska niissä on monia eri komponentteja. Mutta jos sensoria käytetään tiettyjen asioiden haistamiseen se toimii. Hajuja voidaan käyttää myös tautien havainnollistamisessa. Näihin tauteihin kuuluu parkinsonin tauti ja ms tauti. Antureita käytetään myös päästöjen seurannassa. Rahtilaivojen päästäjö seurataan rannalle tai saaristoon asennetuilla sensoreilla jotka mittaavat päästöistä muun muassa rikin määrää. Anturi mitttaa ilmasta kaasun osuuden. rikkiä seurataan, koska rikki on myrkyllinen kaasu ja voi seurata ihmishenkiä jos niitä ei pidetä silmällä. Antureilla myös mitataan koulutilojen ilmanlaatua. Anturit mittaavat lämpötilaa, ilmanlaatua, pienihiukkaisia ja ilmanpainetta. Tietoa ongelmasta saadaan myös koululaisista jotka voivat kertoa jos on huono olo.
+##### Näkevät anturit
+Näkevät anturit voivat olla liiketunnistimia vaikka sytyttämään valot tai hälyttämään mahdollisesta murtautumisesta. Niitä myös käytetään valvomaan onko rahdista hävinnyt jotain. Kone näköä aloitettiin suunnittelemaan 1960-luvulla. Anturi kerää dataa mittaamalla photoneita,kerää valoa ja värejä. Kone näköä käytetään asioissa missä ihmisnäkö ei riitä. Sitä hyödynnetään yksitoikkoisen työn laadun parantamiseksi. Myös tuotteen laadun valvonta on helpompaa koenäön avulla. Jos laadun valvonta ei ole hyvä tämä voi tulla kalliiksi yritykselle. Jos laatu ei vastaa tilausta voidaan lasti lähettää takaisin. Konenäkö vaatii tietyn valoisuuden toimiakseen parhaiten.
 ### -Palvelut
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
+Particle photon laitteen ohjelma.
+![particle](/particlec.jpg)
+![particle](/csharp1.jpg)
+![particle](/csharp2.jpg)
+
 # Käytetyt kehitysympäristöt
 #### Microsoft Azure
 Azure tarjoaa useita erillaisia toimintoja käyttäjilleen. Näihin palveluihin kuuluu esim. nettisivujen isännöinti, pilvipalveluja, integraatio palveluja ja hallintapalveluja. Azuren on tarkoitus toimi sovellusten ja palvelujen alustana.
@@ -28,7 +35,7 @@ Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projekte
 # Termihakemisto
 IoT = Esineiden internet.
 Anturi = Mittaa eri asioita anturistta riippuen kuten lämpöä tai ilmankosteutta.
-Älykoti = Kiinteistö pystyy keräämään itsestään dataa, joka on nähtävissä esim, älypuhelimella.
+Älykoti = Kiinteistö pystyy keräämään itsestään dataa, joka on nähtävissä esim. älypuhelimella.
 # Viitteet
 https://empirica.fi/iot/
 https://sulava.com/pilvi-infrastruktuuri/mika-se-azure-oikein/
