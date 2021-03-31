@@ -28,7 +28,7 @@ Particle consolissa tehty ohjelma sääasemalle.
 
 ![particle](/particlec.jpg)
 
-Triggercsharp1 koodi joka hakee datan laitteesta ja varastoi sen azuren pilveen.
+Triggercsharp1 koodi joka vastaanottaa datan laitteesta ja varastoi sen azuren pilveen.
 
 ![particle](/csharp1.jpg)
 
