@@ -7,6 +7,8 @@ IoT-järjestelmän rakenteeseen kuuluu datan keräämiseen tarkoitetut anturit. 
 ### Sääaseman rakenne 
 ![Rakenne](/kuva.jpg)
 ### -Laitteistot
+#### Particle photon
+Photon on Wi-Fi:llä toimiva IoT laite joka on yhteydessä pilveen. Photon on tarkoitettu laitteiden ja tuotteiden valmistamiseen. Photonissa on piirilevyyn asennettu tilanne ledi. Siinä myös on 18 yleiskäyttöistä pinniä. Se on myös todella pieni, joka tekee siitä käytännöllisemmän. Sen ohjelmointi tapahtuu particlen omassa consolessa. 
 ### -Komponentit
 #### Anturit 
 ##### Kuulevat anturit
@@ -17,6 +19,8 @@ Tuntevat anturit voivat mitata kosteutta ja karjan hyvin vointia. Sensoreita voi
 Hajuja on vaikea tunnistaa koska niissä on monia eri komponentteja. Mutta jos sensoria käytetään tiettyjen asioiden haistamiseen se toimii. Hajuja voidaan käyttää myös tautien havainnollistamisessa. Näihin tauteihin kuuluu parkinsonin tauti ja ms tauti. Antureita käytetään myös päästöjen seurannassa. Rahtilaivojen päästäjö seurataan rannalle tai saaristoon asennetuilla sensoreilla jotka mittaavat päästöistä muun muassa rikin määrää. Anturi mitttaa ilmasta kaasun osuuden. rikkiä seurataan, koska rikki on myrkyllinen kaasu ja voi seurata ihmishenkiä jos niitä ei pidetä silmällä. Antureilla myös mitataan koulutilojen ilmanlaatua. Anturit mittaavat lämpötilaa, ilmanlaatua, pienihiukkaisia ja ilmanpainetta. Tietoa ongelmasta saadaan myös koululaisista jotka voivat kertoa jos on huono olo.
 ##### Näkevät anturit
 Näkevät anturit voivat olla liiketunnistimia vaikka sytyttämään valot tai hälyttämään mahdollisesta murtautumisesta. Niitä myös käytetään valvomaan onko rahdista hävinnyt jotain. Kone näköä aloitettiin suunnittelemaan 1960-luvulla. Anturi kerää dataa mittaamalla photoneita,kerää valoa ja värejä. Kone näköä käytetään asioissa missä ihmisnäkö ei riitä. Sitä hyödynnetään yksitoikkoisen työn laadun parantamiseksi. Myös tuotteen laadun valvonta on helpompaa koenäön avulla. Jos laadun valvonta ei ole hyvä tämä voi tulla kalliiksi yritykselle. Jos laatu ei vastaa tilausta voidaan lasti lähettää takaisin. Konenäkö vaatii tietyn valoisuuden toimiakseen parhaiten.
+##### DHT 11
+DHT 11 anturia usein käytetään lämpötilan ja ilman kosteuden seurannassa. Anturissa on 3 pinniä jotka ovat virtalähde, maadoitus ja datan keräys. Data pinnistä lähtee kerätty tieto analysoitavaksi ja tämän jälkeen se on luettavissa vaikkapa tietokoneelta.
 ### -Palvelut
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
@@ -38,7 +42,7 @@ Azure tarjoaa useita erillaisia toimintoja käyttäjilleen. Näihin palveluihin 
 #### Replit
 Replit on selaimessa toimiva koodaus ympäristö joten latauksia ei tarvita. Replitillä voi luoda monia eri koodeja. Myös ryhmä työskentely onnistuu, koska samaa koodia voi tehdä useampi henkilö samanaikaisesti.
 #### Github
-Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projektejaan. Github on myös sosiaalinen verkko missä kehittäjät voivat tehdä yhteistyötä ja parantaa omia taitojaan. Githubissa pystyt seuraamaan kuka muuttaa mitäkin ohjelmassa. Github myös toimii replitin kanssa.
+Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projektejaan. Github on myös sosiaalinen verkko missä kehittäjät voivat tehdä yhteistyötä ja parantaa omia taitojaan. Githubissa pystyt seuraamaan kuka muuttaa mitäkin ohjelmassa. Githubin voi myös yhdistää azureen pipelinen avulla, joka automaattisesti päivittää azuren web appin. Githubin voi myös yhdistää replittiin josta koodit voi tallentaa githubiin.
 # Termihakemisto
 IoT = Esineiden internet.
 Anturi = Mittaa eri asioita anturistta riippuen kuten lämpöä tai ilmankosteutta.
@@ -48,3 +52,5 @@ https://empirica.fi/iot/
 https://sulava.com/pilvi-infrastruktuuri/mika-se-azure-oikein/
 https://fi.if-koubou.com/articles/how-to/what-is-github-and-what-is-it-used-for.html
 https://www.dna.fi/yrityksille/aistien-internet-podcast
+https://components101.com/sensors/dht11-temperature-sensor
+https://docs.particle.io/photon/
