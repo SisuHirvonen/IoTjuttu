@@ -24,7 +24,7 @@ DHT 11 anturia usein käytetään lämpötilan ja ilman kosteuden seurannassa. A
 ### -Palvelut
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
-Particle photon laitteen ohjelma.
+Particle consolissa tehty ohjelma sääasemalle.
 
 ![particle](/particlec.jpg)
 
@@ -32,7 +32,7 @@ Triggercsharp1 koodi joka hakee datan laitteesta ja varastoi sen azuren pilveen.
 
 ![particle](/csharp1.jpg)
 
-Triggercsharp2 koodi joka tuo datan json muodossa käyttöliittymää varten.
+Triggercsharp2 koodi joka tuo datan pilvestä json muodossa käyttöliittymää varten.
 
 ![particle](/csharp2.jpg)
 
