@@ -24,7 +24,7 @@ DHT 11 anturia usein käytetään lämpötilan ja ilman kosteuden seurannassa. A
 ### -Palvelut
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
-Particle consolissa tehty ohjelma sääasemalle.
+Particle consolissa tehty ohjelma sääasemalle. käyttää adafruit DHT Particle kirjastoa.
 
 ![particle](/particlec.jpg)
 
@@ -43,6 +43,8 @@ Azure tarjoaa useita erillaisia toimintoja käyttäjilleen. Näihin palveluihin 
 Replit on selaimessa toimiva koodaus ympäristö joten latauksia ei tarvita. Replitillä voi luoda monia eri koodeja. Myös ryhmä työskentely onnistuu, koska samaa koodia voi tehdä useampi henkilö samanaikaisesti.
 #### Github
 Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projektejaan. Github on myös sosiaalinen verkko missä kehittäjät voivat tehdä yhteistyötä ja parantaa omia taitojaan. Githubissa pystyt seuraamaan kuka muuttaa mitäkin ohjelmassa. Githubin voi myös yhdistää azureen pipelinen avulla, joka automaattisesti päivittää azuren web appin. Githubin voi myös yhdistää replittiin josta koodit voi tallentaa githubiin.
+#### Particle console
+Particle console on particle photonille tarkoitettu kehitysympäristö. consolessa voi ohjelmoida photonia.
 # Termihakemisto
 IoT = Esineiden internet.
 
