@@ -8,7 +8,7 @@ IoT-järjestelmän rakenteeseen kuuluu datan keräämiseen tarkoitetut anturit. 
 ![Rakenne](/kuva.jpg)
 ### -Laitteistot
 #### Particle photon
-Photon on Wi-Fi:llä toimiva IoT laite joka on yhteydessä pilveen. Photon on tarkoitettu laitteiden ja tuotteiden valmistamiseen. Photonissa on piirilevyyn asennettu tilanne ledi. Siinä myös on 18 yleiskäyttöistä pinniä. Se on myös todella pieni, joka tekee siitä käytännöllisemmän. Sen ohjelmointi tapahtuu particlen omassa consolessa. 
+Photon on Wi-Fi:llä toimiva IoT laite joka on yhteydessä pilveen. Photoni on tarkoitettu käytettäväksi laitteiden ja tuotteiden valmistuksessa. Photonissa on piirilevyyn asennettu tilanne ledi. Siinä myös on 18 yleiskäyttöistä pinniä. Se on myös todella pieni, joka tekee siitä käytännöllisemmän. Sen ohjelmointi tapahtuu particlen omassa consolessa. 
 ### -Komponentit
 #### Anturit 
 ##### Kuulevat anturit
