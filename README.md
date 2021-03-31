@@ -21,8 +21,11 @@ Näkevät anturit voivat olla liiketunnistimia vaikka sytyttämään valot tai h
 IoT palveluihin kuuluu muun muassa pilvipalvelut. Pilvipalvelut tarjoavat kuluttajalle palveluja. Näihin palveluihin kuuluu esim datan säilöminen ja netistä videoiden katsominen. Palvelut tapahtuvat palvelinkeskuksissa ympärin maailmaa. Pilvipalvelujen huono puoli on palvelun tarjoajan tietoisuus kaikesta mitä teet palvelulla. 
 ### -Ohjelmointi
 Particle photon laitteen ohjelma.
+
 ![particle](/particlec.jpg)
+
 ![particle](/csharp1.jpg)
+
 ![particle](/csharp2.jpg)
 
 # Käytetyt kehitysympäristöt
