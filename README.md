@@ -45,8 +45,11 @@ Replit on selaimessa toimiva koodaus ympäristö joten latauksia ei tarvita. Rep
 Github on versionhallinta järjestelmä.Tänne kehittäjät tallentavat projektejaan. Github on myös sosiaalinen verkko missä kehittäjät voivat tehdä yhteistyötä ja parantaa omia taitojaan. Githubissa pystyt seuraamaan kuka muuttaa mitäkin ohjelmassa. Githubin voi myös yhdistää azureen pipelinen avulla, joka automaattisesti päivittää azuren web appin. Githubin voi myös yhdistää replittiin josta koodit voi tallentaa githubiin.
 # Termihakemisto
 IoT = Esineiden internet.
+
 Anturi = Mittaa eri asioita anturistta riippuen kuten lämpöä tai ilmankosteutta.
+
 Älykoti = Kiinteistö pystyy keräämään itsestään dataa, joka on nähtävissä esim. älypuhelimella.
+
 # Viitteet
 https://empirica.fi/iot/
 https://sulava.com/pilvi-infrastruktuuri/mika-se-azure-oikein/
