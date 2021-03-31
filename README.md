@@ -24,7 +24,11 @@ Particle photon laitteen ohjelma.
 
 ![particle](/particlec.jpg)
 
+Triggercsharp1 koodi joka hakee datan laitteesta ja varastoi sen azuren pilveen.
+
 ![particle](/csharp1.jpg)
+
+Triggercsharp2 koodi joka tuo datan json muodossa käyttöliittymää varten.
 
 ![particle](/csharp2.jpg)
 
